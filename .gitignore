@@ -1,0 +1,15 @@
+# Python / Jupyter
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# YOLO weights are downloaded automatically
+*.pt
+
+# Keep the project input video and generated motion comparison in Git
+*.mp4
+*.mov
+*.MOV
+*.avi
+!data/video.mp4
+!outputs/unit5/motion_comparison.mp4
